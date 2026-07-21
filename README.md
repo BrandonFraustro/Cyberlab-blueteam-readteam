@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Construir un laboratorio profesional para aprender y practicar técnicas de Red Team y Blue Team utilizando herramientas de código abierto.
+Diseñar, construir, operar y documentar un Cyber Defense Lab con estándares profesionales simulando el trabajo de un Detection Engineer y un Blue Team Engineer.
 
 ## Tecnologías
 
