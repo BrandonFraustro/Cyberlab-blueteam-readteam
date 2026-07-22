@@ -23,6 +23,6 @@ Snort
 ✔ Interfaz VMnet3 detectada
 ✔ Captura Ethernet
 
-## Pendiente
+## Cierre
 
-Validar tráfico ICMP.
+La validación ICMP se completó en Snort y Suricata. La evidencia y el procedimiento de repetición se encuentran en `evidence/` y `docs/runbooks/phase-01-validation.md`.

@@ -30,21 +30,20 @@ Host Windows
 
 Snort y Suricata se ejecutan en el host Windows monitoreando el adaptador VMnet3.
 
-## Roadmap
+## Estado del proyecto
+
+La Fase 1 dejó documentada la infraestructura y la primera detección ICMP. Los artefactos canónicos están versionados en `configs/`, `rules/`, `evidence/` y `docs/`.
 
 - [x] Crear la red VMnet3
-- [x] Instalar Npcap
-- [x] Instalar Wireshark
-- [x] Instalar Snort
-- [x] Instalar Suricata
-- [ ] Configurar Snort
-- [ ] Configurar Suricata
-- [ ] Crear primeras reglas
-- [ ] Detectar ICMP
-- [ ] Detectar Nmap
+- [x] Instalar Npcap y Wireshark
+- [x] Instalar y configurar Snort
+- [x] Instalar y configurar Suricata
+- [x] Crear la regla ICMP
+- [x] Detectar ICMP con ambos sensores
+- [ ] Revalidar Snort con la regla actualmente activa y archivar el PCAP
+- [ ] Sprint 2.2: detección ARP
 - [ ] Integrar Zeek
-- [ ] Integrar Wazuh
-- [ ] Integrar SIEM
+- [ ] Integrar Wazuh/SIEM
 
 ## Convenciones
 

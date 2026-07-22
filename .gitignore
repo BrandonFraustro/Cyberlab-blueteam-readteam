@@ -1,0 +1,13 @@
+# Logs operativos y artefactos temporales
+logs/**
+
+# Capturas grandes: conservar solo evidencia seleccionada
+*.pcap
+*.pcapng
+!pcaps/README.md
+!pcaps/phase-01-icmp-validation.pcapng
+
+# Archivos locales de herramientas
+*.pid
+*.tmp
+*.bak

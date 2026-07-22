@@ -332,3 +332,20 @@ Objetivos
 - Comparar Snort vs Suricata.
 - Generar nuevas reglas.
 - Documentar evidencias.
+
+---
+
+# Artefactos de reproducibilidad
+
+- Parámetros de Snort: `configs/snort/phase-01-settings.md`.
+- Parámetros de Suricata: `configs/suricata/phase-01-settings.md`.
+- Reglas: `rules/snort/icmp.rules` y `rules/suricata/icmp.rules`.
+- Runbook: `docs/runbooks/phase-01-validation.md`.
+- Incidencias: `docs/troubleshooting/phase-01.md`.
+- Evidencia curada: `evidence/snort/` y `evidence/suricata/`.
+
+## Cierre operacional — 2026-07-22
+
+La revalidación final confirmó cuatro Echo Request y cuatro Echo Reply en Snort, y el mismo flujo en Suricata mediante fast.log y eve.json. La captura asociada está archivada en `pcaps/phase-01-icmp-validation.pcapng`.
+
+Con esta validación, la fase cumple la regla operativa: está documentada, tiene evidencia y es reproducible mediante el runbook.
