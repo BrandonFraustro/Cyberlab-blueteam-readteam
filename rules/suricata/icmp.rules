@@ -1,0 +1,3 @@
+# CyberLab — Fase 1
+alert icmp any any -> $HOME_NET any (msg:"CYBERLAB ICMP Ping"; sid:1000001; rev:1;)
+
